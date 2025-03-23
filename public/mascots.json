@@ -1,0 +1,741 @@
+[
+    {
+        "id": 1,
+        "team": "Atlanta Hawks", 
+        "mascot": ["Henry the Hawk"],
+        "league": "NBA"
+    },
+    {
+        "id": 2,
+        "team": "Boston Celtics", 
+        "mascot": ["Lucky the Leprechaun"],
+        "league": "NBA"
+    },
+    {
+        "id": 3,
+        "team": "Brooklyn Nets", 
+        "mascot": [],
+        "league": "NBA"
+    },
+    {
+        "id": 4,
+        "team": "Charlotte Hornets", 
+        "mascot": ["Hugo the Hornet", "Super Hugo"],
+        "league": "NBA"
+    },
+    {
+        "id": 5,
+        "team": "Chicago Bulls", 
+        "mascot": ["Benny the Bull", "Mini Benny", "Big Ben", "Benji", "Mama Betty", "Inflatabulls"],
+        "league": "NBA"
+    },
+    {
+        "id": 6,
+        "team": "Cleveland Cavaliers", 
+        "mascot": ["Moondog", "Sir CC"],
+        "league": "NBA"
+    },
+    {
+        "id": 7,
+        "team": "Dallas Mavericks", 
+        "mascot": ["Champ", "Mavs Man"],
+        "league": "NBA"
+    },
+    {
+        "id": 8,
+        "team": "Denver Nuggets", 
+        "mascot": ["Rocky the Mountain Lion"],
+        "league": "NBA"
+    },
+    {
+        "id": 9,
+        "team": "Detroit Pistons", 
+        "mascot": ["Hooper", "Mini Hooper"],
+        "league": "NBA"
+    },
+    {
+        "id": 10,
+        "team": "Golden State Warriors", 
+        "mascot": [],
+        "league": "NBA"
+    },
+    {
+        "id": 11,
+        "team": "Houston Rockets", 
+        "mascot": ["Clutch the Bear", "Mini Clutch"],
+        "league": "NBA"
+    },
+    {
+        "id": 12,
+        "team": "Indiana Pacers", 
+        "mascot": ["Boomer", "Mini Boomer"],
+        "league": "NBA"
+    },
+    {
+        "id": 13,
+        "team": "Los Angeles Clippers", 
+        "mascot": ["Chuck the Condor"],
+        "league": "NBA"
+    },
+    {
+        "id": 14,
+        "team": "Los Angeles Lakers", 
+        "mascot": [],
+        "league": "NBA"
+    },
+    {
+        "id": 15,
+        "team": "Memphis Grizzlies", 
+        "mascot": ["Grizz"],
+        "league": "NBA"
+    },
+    {
+        "id": 16,
+        "team": "Miami Heat", 
+        "mascot": ["Burnie"],
+        "league": "NBA"
+    },
+    {
+        "id": 17,
+        "team": "Milwaukee Bucks", 
+        "mascot": ["Bango the Buck", "Bango Jr."],
+        "league": "NBA"
+    },
+    {
+        "id": 18,
+        "team": "Minnesota Timberwolves", 
+        "mascot": ["Crunch the Wolf"],
+        "league": "NBA"
+    },
+    {
+        "id": 19,
+        "team": "New Orleans Pelicans", 
+        "mascot": ["Pierre the Pelican", "King Cake Baby"],
+        "league": "NBA"
+    },
+    {
+        "id": 20,
+        "team": "New York Knicks", 
+        "mascot": [],
+        "league": "NBA"
+    },
+    {
+        "id": 21,
+        "team": "Oklahoma City Thunder", 
+        "mascot": ["Rumble the Bison"],
+        "league": "NBA"
+    },
+    {
+        "id": 22,
+        "team": "Orlando Magic", 
+        "mascot": ["Stuff the Magic Dragon"],
+        "league": "NBA"
+    },
+    {
+        "id": 23,
+        "team": "Philadelphia 76ers", 
+        "mascot": ["Franklin"],
+        "league": "NBA"
+    },
+    {
+        "id": 24,
+        "team": "Phoenix Suns", 
+        "mascot": ["Go the Gorilla"],
+        "league": "NBA"
+    },
+    {
+        "id": 25,
+        "team": "Portland Trail Blazers", 
+        "mascot": ["Blaze the Trail Cat", "Douglas Fur"],
+        "league": "NBA"
+    },
+    {
+        "id": 26,
+        "team": "Sacramento Kings", 
+        "mascot": ["Slamson the Lion"],
+        "league": "NBA"
+    },
+    {
+        "id": 27,
+        "team": "San Antonio Spurs", 
+        "mascot": ["Coyote"],
+        "league": "NBA"
+    },
+    {
+        "id": 28,
+        "team": "Toronto Raptors", 
+        "mascot": ["The Raptor"],
+        "league": "NBA"
+    },
+    {
+        "id": 29,
+        "team": "Utah Jazz", 
+        "mascot": ["Jazz Bear", "Lil Bear"],
+        "league": "NBA"
+    },
+    {
+        "id": 30,
+        "team": "Washington Wizards", 
+        "mascot": ["G-Wiz", "G-Man"],
+        "league": "NBA"
+    },
+    {
+        "id": 31,
+        "team": "Baltimore Ravens", 
+        "mascot": ["Poe", "Rise", "Conquerl"],
+        "league": "NFL"
+    },
+    {
+        "id": 32,
+        "team": "Buffalo Bills", 
+        "mascot": ["Billy Buffalo"],
+        "league": "NFL"
+    },
+    {
+        "id": 33,
+        "team": "Cincinnati Bengals", 
+        "mascot": ["Who Dey"],
+        "league": "NFL"
+    },
+    {
+        "id": 34,
+        "team": "Cleveland Browns", 
+        "mascot": ["Chomps", "Swagger Jr.", "Brownie the Elf"],
+        "league": "NFL"
+    },
+    {
+        "id": 35,
+        "team": "Denver Broncos", 
+        "mascot": ["Miles", "Thunder II"],
+        "league": "NFL"
+    },
+    {
+        "id": 36,
+        "team": "Houston Texans", 
+        "mascot": ["Toro"],
+        "league": "NFL"
+    },
+    {
+        "id": 37,
+        "team": "Indianapolis Colts", 
+        "mascot": ["Blue"],
+        "league": "NFL"
+    },
+    {
+        "id": 38,
+        "team": "Jacksonville Jaguars", 
+        "mascot": ["Jaxson de Ville"],
+        "league": "NFL"
+    },
+    {
+        "id": 39,
+        "team": "Kansas City Chiefs", 
+        "mascot": ["K.C. Wolf"],
+        "league": "NFL"
+    },
+    {
+        "id": 40,
+        "team": "Las Vegas Raiders", 
+        "mascot": ["Raider Rusher"],
+        "league": "NFL"
+    },
+    {
+        "id": 41,
+        "team": "Los Angeles Chargers", 
+        "mascot": [],
+        "league": "NFL"
+    },
+    {
+        "id": 42,
+        "team": "Miami Dolphins", 
+        "mascot": ["T.D."],
+        "league": "NFL"
+    },
+    {
+        "id": 43,
+        "team": "New England Patriots", 
+        "mascot": ["Pat Patriot"],
+        "league": "NFL"
+    },
+    {
+        "id": 44,
+        "team": "New York Jets", 
+        "mascot": [],
+        "league": "NFL"
+    },
+    {
+        "id": 45,
+        "team": "Tennessee Titans", 
+        "mascot": ["T-Rac"],
+        "league": "NFL"
+    },
+    {
+        "id": 46,
+        "team": "Arizona Cardinals", 
+        "mascot": ["Big Red"],
+        "league": "NFL"
+    },
+    {
+        "id": 47,
+        "team": "Atlanta Falcons", 
+        "mascot": ["Freddie Falcon"],
+        "league": "NFL"
+    },
+    {
+        "id": 48,
+        "team": "Carolina Panthers", 
+        "mascot": ["Sir Purr"],
+        "league": "NFL"
+    },
+    {
+        "id": 49,
+        "team": "Chicago Bears", 
+        "mascot": ["Staley Da Bear"],
+        "league": "NFL"
+    },
+    {
+        "id": 50,
+        "team": "Dallas Cowboys", 
+        "mascot": ["Rowdy"],
+        "league": "NFL"
+    },
+    {
+        "id": 51,
+        "team": "Detroit Lions", 
+        "mascot": ["Roary"],
+        "league": "NFL"
+    },
+    {
+        "id": 52,
+        "team": "Green Bay Packers", 
+        "mascot": [],
+        "league": "NFL"
+    },
+    {
+        "id": 53,
+        "team": "Los Angeles Rams", 
+        "mascot": ["Rampage"],
+        "league": "NFL"
+    },
+    {
+        "id": 54,
+        "team": "Minnesota Vikings", 
+        "mascot": ["Viktor"],
+        "league": "NFL"
+    },
+    {
+        "id": 55,
+        "team": "New Orleans Saints", 
+        "mascot": ["Gumbo", "Sir Saint"],
+        "league": "NFL"
+    },
+    {
+        "id": 56,
+        "team": "New York Giants", 
+        "mascot": [],
+        "league": "NFL"
+    },
+    {
+        "id": 57,
+        "team": "Philadelphia Eagles", 
+        "mascot": ["Swoop", "Air Swoop"],
+        "league": "NFL"
+    },
+    {
+        "id": 58,
+        "team": "San Francisco 49ers", 
+        "mascot": ["Sourdough Sam"],
+        "league": "NFL"
+    },
+    {
+        "id": 59,
+        "team": "Seattle Seahawks", 
+        "mascot": ["Blitz", "Boom", "Taima"],
+        "league": "NFL"
+    },
+    {
+        "id": 60,
+        "team": "Tampa Bay Buccaneers", 
+        "mascot": ["Captain Fear", "Pirate Parrot"],
+        "league": "NFL"
+    },
+    {
+        "id": 61,
+        "team": "Washington Commanders", 
+        "mascot": ["Major Tutty", "The Commanders"],
+        "league": "NFL"
+    },
+    {
+        "id": 62,
+        "team": "Arizona Diamondbacks", 
+        "mascot": ["D. Baxter the Bobcat"],
+        "league": "MLB"
+    },
+    {
+        "id": 63,
+        "team": "Atlanta Braves", 
+        "mascot": ["Homer the Brave"],
+        "league": "MLB"
+    },
+    {
+        "id": 64,
+        "team": "Baltimore Orioles", 
+        "mascot": ["The Oriole Bird"],
+        "league": "MLB"
+    },
+    {
+        "id": 65,
+        "team": "Boston Red Sox", 
+        "mascot": ["Wally the Green Monster", "Tessie"],
+        "league": "MLB"
+    },
+    {
+        "id": 66,
+        "team": "Chicago Cubs", 
+        "mascot": ["Clark the Cub"],
+        "league": "MLB"
+    },
+    {
+        "id": 67,
+        "team": "Chicago White Sox", 
+        "mascot": ["Southpaw"],
+        "league": "MLB"
+    },
+    {
+        "id": 68,
+        "team": "Cincinnati Reds", 
+        "mascot": ["Mr. Red"],
+        "league": "MLB"
+    },
+    {
+        "id": 69,
+        "team": "Cleveland Guardians", 
+        "mascot": ["Slider"],
+        "league": "MLB"
+    },
+    {
+        "id": 70,
+        "team": "Colorado Rockies", 
+        "mascot": ["Rocky the Mountain Lion"],
+        "league": "MLB"
+    },
+    {
+        "id": 71,
+        "team": "Detroit Tigers", 
+        "mascot": ["Paws"],
+        "league": "MLB"
+    },
+    {
+        "id": 72,
+        "team": "Houston Astros", 
+        "mascot": ["Orbit"],
+        "league": "MLB"
+    },
+    {
+        "id": 73,
+        "team": "Kansas City Royals", 
+        "mascot": ["Sluggerrr"],
+        "league": "MLB"
+    },
+    {
+        "id": 74,
+        "team": "Los Angeles Angels", 
+        "mascot": ["Angels Baseball"],
+        "league": "MLB"
+    },
+    {
+        "id": 75,
+        "team": "Los Angeles Dodgers", 
+        "mascot": ["The Dodger"],
+        "league": "MLB"
+    },
+    {
+        "id": 76,
+        "team": "Miami Marlins", 
+        "mascot": ["Billy the Marlin"],
+        "league": "MLB"
+    },
+    {
+        "id": 77,
+        "team": "Milwaukee Brewers", 
+        "mascot": ["Bernie Brewer"],
+        "league": "MLB"
+    },
+    {
+        "id": 78,
+        "team": "Minnesota Twins", 
+        "mascot": ["TC Bear"],
+        "league": "MLB"
+    },
+    {
+        "id": 79,
+        "team": "New York Mets", 
+        "mascot": ["Mr. Met", "Mrs. Met"],
+        "league": "MLB"
+    },
+    {
+        "id": 80,
+        "team": "New York Yankees", 
+        "mascot": [],
+        "league": "MLB"
+    },
+    {
+        "id": 81,
+        "team": "Oakland Athletics", 
+        "mascot": ["Stomper"],
+        "league": "MLB"
+    },
+    {
+        "id": 82,
+        "team": "Philadelphia Phillies", 
+        "mascot": ["Phillie Phanatic"],
+        "league": "MLB"
+    },
+    {
+        "id": 83,
+        "team": "Pittsburgh Pirates", 
+        "mascot": ["The Pirate Parrot"],
+        "league": "MLB"
+    },
+    {
+        "id": 84,
+        "team": "San Diego Padres", 
+        "mascot": ["The Swinging Friar"],
+        "league": "MLB"
+    },
+    {
+        "id": 85,
+        "team": "San Francisco Giants", 
+        "mascot": ["Lou Seal"],
+        "league": "MLB"
+    },
+    {
+        "id": 86,
+        "team": "Seattle Mariners", 
+        "mascot": ["Mariners Moose"],
+        "league": "MLB"
+    },
+    {
+        "id": 87,
+        "team": "St. Louis Cardinals", 
+        "mascot": ["Fredbird"],
+        "league": "MLB"
+    },
+    {
+        "id": 88,
+        "team": "Tampa Bay Rays", 
+        "mascot": ["Raymond"],
+        "league": "MLB"
+    },
+    {
+        "id": 89,
+        "team": "Texas Rangers", 
+        "mascot": ["Rangers Captain"],
+        "league": "MLB"
+    },
+    {
+        "id": 90,
+        "team": "Toronto Blue Jays", 
+        "mascot": ["Ace"],
+        "league": "MLB"
+    },
+    {
+        "id": 91,
+        "team": "Washington Nationals", 
+        "mascot": ["Screech"],
+        "league": "MLB"
+    },
+    {
+        "id": 92,
+        "team": "Anaheim Ducks", 
+        "mascot": ["Wild Wing"],
+        "league": "NHL"
+    },
+    {
+        "id": 93,
+        "team": "Arizona Coyotes", 
+        "mascot": ["Howler the Coyote", "Yotes"],
+        "league": "NHL"
+    },
+    {
+        "id": 94,
+        "team": "Boston Bruins", 
+        "mascot": ["Blades the Bruin"],
+        "league": "NHL"
+    },
+    {
+        "id": 95,
+        "team": "Buffalo Sabres", 
+        "mascot": ["Sabretooth"],
+        "league": "NHL"
+    },
+    {
+        "id": 96,
+        "team": "Calgary Flames", 
+        "mascot": ["Harvey the Hound"],
+        "league": "NHL"
+    },
+    {
+        "id": 97,
+        "team": "Carolina Hurricanes", 
+        "mascot": ["Stormy"],
+        "league": "NHL"
+    },
+    {
+        "id": 98,
+        "team": "Chicago Blackhawks", 
+        "mascot": ["Tommy Hawk"],
+        "league": "NHL"
+    },
+    {
+        "id": 99,
+        "team": "Colorado Avalanche", 
+        "mascot": ["Bernie the Avalanche"],
+        "league": "NHL"
+    },
+    {
+        "id": 100,
+        "team": "Columbus Blue Jackets", 
+        "mascot": ["Stinger"],
+        "league": "NHL"
+    },
+    {
+        "id": 101,
+        "team": "Dallas Stars", 
+        "mascot": ["Marty the Martian"],
+        "league": "NHL"
+    },
+    {
+        "id": 102,
+        "team": "Detroit Red Wings", 
+        "mascot": ["Al the Octopus"],
+        "league": "NHL"
+    },
+    {
+        "id": 103,
+        "team": "Edmonton Oilers", 
+        "mascot": ["Hunter the Lynx"],
+        "league": "NHL"
+    },
+    {
+        "id": 104,
+        "team": "Florida Panthers", 
+        "mascot": ["Stanley C. Panther", "Viktor E. Ratt"],
+        "league": "NHL"
+    },
+    {
+        "id": 105,
+        "team": "Los Angeles Kings", 
+        "mascot": ["Bailey the Lion"],
+        "league": "NHL"
+    },
+    {
+        "id": 106,
+        "team": "Minnesota Wild", 
+        "mascot": ["Nordy"],
+        "league": "NHL"
+    },
+    {
+        "id": 107,
+        "team": "Montreal Canadiens", 
+        "mascot": ["Youppi!"],
+        "league": "NHL"
+    },
+    {
+        "id": 108,
+        "team": "Nashville Predators", 
+        "mascot": ["Gnash the Predator"],
+        "league": "NHL"
+    },
+    {
+        "id": 109,
+        "team": "New Jersey Devils", 
+        "mascot": ["N.J. Devil"],
+        "league": "NHL"
+    },
+    {
+        "id": 110,
+        "team": "New York Islanders", 
+        "mascot": ["Sparky the Dragon"],
+        "league": "NHL"
+    },
+    {
+        "id": 111,
+        "team": "New York Rangers", 
+        "mascot": [],
+        "league": "NHL"
+    },
+    {
+        "id": 112,
+        "team": "Ottawa Senators", 
+        "mascot": ["Sparty the Mascot"],
+        "league": "NHL"
+    },
+    {
+        "id": 113,
+        "team": "Philadelphia Flyers", 
+        "mascot": ["Gritty"],
+        "league": "NHL"
+    },
+    {
+        "id": 114,
+        "team": "Pittsburgh Penguins", 
+        "mascot": ["Iceburgh"],
+        "league": "NHL"
+    },
+    {
+        "id": 115,
+        "team": "San Jose Sharks", 
+        "mascot": ["SJ Sharkie"],
+        "league": "NHL"
+    },
+    {
+        "id": 116,
+        "team": "Seattle Kraken", 
+        "mascot": ["Bite"],
+        "league": "NHL"
+    },
+    {
+        "id": 117,
+        "team": "St. Louis Blues", 
+        "mascot": ["Blues the Bear"],
+        "league": "NHL"
+    },
+    {
+        "id": 118,
+        "team": "Tampa Bay Lightning", 
+        "mascot": ["ThunderBug"],
+        "league": "NHL"
+    },
+    {
+        "id": 119,
+        "team": "Toronto Maple Leafs", 
+        "mascot": ["Carlton the Bear"],
+        "league": "NHL"
+    },
+    {
+        "id": 120,
+        "team": "Vancouver Canucks", 
+        "mascot": ["Fin the Whale"],
+        "league": "NHL"
+    },
+    {
+        "id": 121,
+        "team": "Vegas Golden Knights", 
+        "mascot": ["Chance the Gila Monster"],
+        "league": "NHL"
+    },
+    {
+        "id": 122,
+        "team": "Washington Capitals", 
+        "mascot": ["Slapshot"],
+        "league": "NHL"
+    },
+    {
+        "id": 123,
+        "team": "Winnipeg Jets", 
+        "mascot": ["Mick E. Moose"],
+        "league": "NHL"
+    }
+]
+

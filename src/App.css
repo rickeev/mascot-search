@@ -1,0 +1,354 @@
+/* Reset and base styles */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Layout - Page Structure */
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+/* Common widths for consistent layout */
+.search-container,
+.mascot-list-container,
+.mascot-item,
+.no-results,
+.loading-more-spinner,
+.footer-content {
+  width: 100%;
+  max-width: 800px;
+}
+
+.mascot-list-container,
+.mascot-item,
+.no-results,
+.loading-more-spinner {
+  min-width: 600px;
+}
+
+/* Header styling */
+.page-header {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: "Atlanta College", Arial, sans-serif;
+}
+
+.page-header h1 {
+  margin-bottom: 0px; /* Remove bottom margin */
+}
+
+.page-header p {
+  margin-top: 10px; /* Negative margin to overlap with h1 */
+  margin-bottom: 0px;
+}
+
+/* Search Bar Component */
+.search-container {
+  position: relative;
+  margin: 10px 0 10px;
+}
+
+.search-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  pointer-events: none;
+  color: #555;
+}
+
+.search-separator {
+  position: absolute;
+  left: 36px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 60%;
+  width: 1px;
+  background-color: #ccc;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 10px 10px 10px 48px;
+  margin: 0;
+  font-size: 16px;
+  border: 1px solid #000;
+  border-radius: 12px;
+}
+
+/* Compact Search Bar */
+.search-container.compact {
+  margin: 0;
+  width: 100%;
+}
+
+.search-container.compact .search-bar {
+  height: 36px;
+  font-size: 14px;
+  padding: 8px 8px 8px 40px;
+  border-radius: 8px;
+}
+
+.search-container.compact .search-icon {
+  left: 10px;
+  width: 14px;
+  height: 14px;
+}
+
+.search-container.compact .search-separator {
+  left: 32px;
+}
+
+/* Mascot List Component */
+.mascot-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+  width: 100%;
+}
+
+/* Mascot Item Component */
+.mascot-item {
+  background: white;
+  border: 1px solid #000;
+  border-radius: 12px;
+  padding: 15px;
+  margin: 10px 0;
+  text-align: left;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.mascot-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.mascot-item p {
+  margin: 5px 0;
+}
+
+.mascot-item span {
+  font-weight: bold;
+}
+
+/* No results message */
+.no-results {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Loading Spinner Component */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loading-spinner {
+  width: 36px;
+  height: 36px;
+  border: 4px solid rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  border-top-color: rgba(0, 0, 0, 0.7);
+  animation: spin 0.7s ease-in-out infinite;
+  margin-bottom: 10px;
+}
+
+.loading-spinner.small {
+  width: 24px;
+  height: 24px;
+  border-width: 3px;
+}
+
+/* Loading states */
+.loading-search,
+.loading-more-spinner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.loading-search {
+  justify-content: center;
+  min-height: 150px;
+}
+
+.loading-more-spinner {
+  padding: 15px 0;
+}
+
+.loading-search p,
+.loading-more-spinner p {
+  margin-top: 8px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.loading-search p {
+  margin-top: 10px;
+}
+
+/* Sticky Header Component */
+.sticky-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  padding: 10px 0;
+  transition: all 0.3s ease;
+}
+
+.sticky-header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1300px; /* This changes the "space" of the title and date in the sticky header */
+  width: 100%;
+  margin: 0 auto;
+}
+
+.sticky-title {
+  flex: 0 0 20%;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  padding-left: 0; /* Remove left padding to position text more left */
+}
+
+.sticky-title h2.clickable {
+  margin: 0;
+  font-size: 1.2rem;
+  display: inline-block;
+  padding: 5px 0;
+  transition: all 0.2s ease;
+  text-align: left; /* Ensure text alignment is left */
+}
+
+.sticky-title:hover h2.clickable {
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.02);
+}
+
+.sticky-search {
+  flex: 0 0 60%;
+  max-width: 760px;
+}
+
+.sticky-date {
+  flex: 0 0 20%;
+  text-align: right;
+  padding-right: 0; /* Remove right padding to position text more right */
+}
+
+.sticky-date p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: black;
+}
+
+/* Footer Component */
+.sticky-footer {
+  width: 100%;
+  border-top: 1px solid #e7e7e7;
+  padding: 20px 0;
+  margin-top: 20px;
+}
+
+.footer-content {
+  margin: 0 auto;
+  text-align: left;
+  padding: 0 20px;
+}
+
+.footer-content p {
+  margin: 5px 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .sticky-header-content {
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .sticky-title, .sticky-search, .sticky-date {
+    width: 100%;
+    flex: 1 0 auto;
+    margin: 5px 0;
+    text-align: center;
+    max-width: none;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  .sticky-title h2.clickable {
+    font-size: 1rem;
+    text-align: center; /* Center text on mobile */
+  }
+  
+  .sticky-date p {
+    font-size: 0.8rem;
+  }
+}
+
+/* Small screen adjustments for mascot items */
+@media (max-width: 600px) {
+  .mascot-list-container,
+  .mascot-item,
+  .no-results,
+  .loading-more-spinner {
+    min-width: unset; /* Remove the fixed minimum width */
+    width: 100%; /* Make them take full available width */
+  }
+  
+  .mascot-item {
+    padding: 12px; /* Slightly reduce padding */
+    margin: 8px 0; /* Reduce vertical margins */
+    font-size: 0.95rem; /* Slightly smaller font size */
+  }
+  
+  .mascot-item p {
+    margin: 3px 0; /* Tighter paragraph margins */
+  }
+  
+  .container {
+    padding: 15px 10px; /* Reduce container padding */
+  }
+}
