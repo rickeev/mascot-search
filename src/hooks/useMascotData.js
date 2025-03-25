@@ -39,15 +39,20 @@ export default function useMascotData() {
     */}
 
     // Production mode
-    const basePath = import.meta.env.BASE_URL; // Gets '/mascot-search/' in production, '/' in dev
+    const basePath = import.meta.env.BASE_URL;
+    console.log("Current base path:", basePath);
+    console.log("Attempting to fetch from:", `${basePath}mascots.json`);
+    
     fetch(`${basePath}mascots.json`)
       .then((response) => {
+        console.log("Fetch response status:", response.status);
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);
         }
         return response.json();
       })
       .then((data) => {
+        console.log("Data successfully loaded, first item:", data[0]);
         setMascotList(data);
         // Minimum loading time of 150ms
         setTimeout(() => {
@@ -56,7 +61,7 @@ export default function useMascotData() {
         }, 150);
       })
       .catch((error) => {
-        console.error("Error fetching mascots:", error);
+        console.error("Error fetching mascots (full error):", error);
         // Set empty array if fetch fails to prevent further issues
         setMascotList([]);
         setIsInitialLoading(false);
