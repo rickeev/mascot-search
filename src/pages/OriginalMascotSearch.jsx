@@ -17,7 +17,25 @@ function MascotSearch() {
     useEffect(() => {
         setIsInitialLoading(true);
         
+        {/*
         const fetchPromise = fetch("/mascots.json")
+            .then((response) => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }
+                return response.json();
+            })
+            .then((data) => {
+                setMascotList(data);
+            })
+            .catch((error) => {
+                console.error("Error fetching mascots:", error);
+            });
+        */}
+
+        // Use the BASE_URL environment variable that Vite provides
+        const basePath = import.meta.env.BASE_URL; // This will be '/mascot-search/' in production and '/' in development
+        const fetchPromise = fetch(`${basePath}mascots.json`)
             .then((response) => {
                 if (!response.ok) {
                     throw new Error(`HTTP error! Status: ${response.status}`);
