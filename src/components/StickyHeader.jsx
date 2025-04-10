@@ -29,7 +29,7 @@ export default function StickyHeader({
         </div>
         
         <div className="sticky-date">
-          <p>Last updated: March 23, 2025</p>
+          <p>Last updated: April 10, 2025</p>
         </div>
       </div>
     </div>
